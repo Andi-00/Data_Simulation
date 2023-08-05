@@ -156,7 +156,7 @@ print("Masse M = {:.2E} M_sun, mu / d = {:.2E} M_sun / Gpc, spin a = {:.2f}\nEcc
 
 # plt.savefig("./spectrograms/test_h.png")
 
-spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/spectrograms/spec_03853.csv", delimiter = ",").real, 0, 1)
+spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/spectrograms/spec_03813.csv", delimiter = ",").real, 0, 1)
 
 x = np.arange(0.5, 80, 1) * 2E4
 y = np.arange(3) * 2E-5
