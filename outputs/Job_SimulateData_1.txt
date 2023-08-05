@@ -1,0 +1,13 @@
+Sun Jul 16 13:26:31 CEST 2023
+batch    0
+batch    1
+batch    2
+batch    3
+batch    4
+batch    5
+batch    6
+batch    7
+batch    8
+batch    9
+5388.792943954468
+Sun Jul 16 14:57:07 CEST 2023

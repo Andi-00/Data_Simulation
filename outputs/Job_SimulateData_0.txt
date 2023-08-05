@@ -1,0 +1,558 @@
+Sun Jul 16 13:26:31 CEST 2023
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=0.000000, x_low=0.000000, x_high=0.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=0.000000, x_low=0.000000, x_high=0.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 6.637255
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=0.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 6.637255
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=0.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=0.919000, x_low=0.840000, x_high=0.998000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 -nan -nan 0.990000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sbatch    0
+batch    1
+batch    2
+batch    3
+batch    4
+batch    5
+batch    6
+batch    7
+ep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=0.919000, x_low=0.840000, x_high=0.998000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 -nan
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=-nan 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=-nan, x_low=-nan, x_high=6.637255 
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=6.637255, x_low=5.274511, x_high=8.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+WARNING: Maximum iteration reached in Utility.cc in Brent root solver.
+Result=9.318628, x_low=6.637255, x_high=12.000000 
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 0.000000
+a, p, e, Y, sep = 0.999964 0.000000 -nan 0.000000 9.318628
+a, p, e, Y, sep = 0.999964 -nan -nan 0.990000 -nan
+Traceback (most recent call last):
+  File "./spectrograms/gen_data.py", line 194, in <module>
+    h = gen_strain(data[i * 100: (i + 1) * 100])
+  File "./spectrograms/gen_data.py", line 136, in gen_strain
+    h = [gen_wave(M[i], mu[i], a[i], p0[i], e0[i], x0, d[i], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt) for i in range(len(d))]
+  File "./spectrograms/gen_data.py", line 136, in <listcomp>
+    h = [gen_wave(M[i], mu[i], a[i], p0[i], e0[i], x0, d[i], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt) for i in range(len(d))]
+  File "/home/cg457676/miniconda3/envs/EMRI_env/lib/python3.7/site-packages/few-1.4.11-py3.7-linux-x86_64.egg/few/waveform.py", line 310, in __call__
+    self.waveform_generator(*args, **{**initial_phases, **kwargs})
+  File "/home/cg457676/miniconda3/envs/EMRI_env/lib/python3.7/site-packages/few-1.4.11-py3.7-linux-x86_64.egg/few/waveform.py", line 1154, in __call__
+    **self.inspiral_kwargs,
+  File "/home/cg457676/miniconda3/envs/EMRI_env/lib/python3.7/site-packages/few-1.4.11-py3.7-linux-x86_64.egg/few/utils/baseclasses.py", line 706, in __call__
+    out = self.get_inspiral(*args, **kwargs)
+  File "/home/cg457676/miniconda3/envs/EMRI_env/lib/python3.7/site-packages/few-1.4.11-py3.7-linux-x86_64.egg/few/trajectory/inspiral.py", line 257, in get_inspiral
+    M, mu, a, p0, e0, x0, Phi_phi0, Phi_theta0, Phi_r0, args_in, **temp_kwargs
+  File "src/inspiralwrap.pyx", line 58, in pyInspiral.pyInspiralGenerator.__call__
+ValueError: EllipticK failed with argument k: -nan
+Sun Jul 16 14:33:07 CEST 2023

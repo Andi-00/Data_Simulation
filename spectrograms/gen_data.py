@@ -30,26 +30,7 @@ from few.utils.constants import *
 from few.summation.aakwave import AAKSummation
 from few.waveform import Pn5AAKWaveform, AAKWaveformBase
 
-plt.rcParams['pgf.rcfonts'] = False
-plt.rcParams['font.serif'] = []
-plt.rcParams['font.family'] = 'serif'
-plt.rcParams['text.usetex'] = True
-plt.rcParams['axes.formatter.useoffset'] = False
-plt.rcParams['lines.linewidth'] = 2
-plt.rcParams['errorbar.capsize'] = 2
-plt.rcParams['grid.linewidth'] = 0.5
-plt.rcParams['axes.labelsize'] = 20
-plt.rcParams['axes.titlesize'] =20
-plt.rcParams['xtick.labelsize'] = 14
-plt.rcParams['ytick.labelsize'] = 14
-plt.rcParams['legend.title_fontsize'] = 14
-plt.rcParams['legend.fontsize'] = 14
-plt.rcParams['savefig.dpi'] = 300
-plt.rcParams['savefig.bbox'] = 'tight'
-plt.rcParams['savefig.pad_inches'] = 0.1
 
-#plt.rcParams['savefig.transparent'] = True
-plt.rcParams['figure.figsize'] = (8, 6)
 
 use_gpu = False
 
@@ -96,10 +77,12 @@ few = FastSchwarzschildEccentricFlux(
     # num_threads=num_threads,  # 2nd way for specific classes
 )
 
+
+
 gen_wave = GenerateEMRIWaveform("Pn5AAKWaveform")
 
 # parameters
-T = 0.2  # years
+T = 0.05 # years
 dt = 5  # seconds
 
 M = 1e4  # solar mass
@@ -126,35 +109,32 @@ Phi_phi0 = 0
 Phi_theta0 = 0
 Phi_r0 = 0
 
-
 # Generate the random parameters for the EMRIs
 # The parameters include M, mu / d, a, e0 and p0
+
 def gen_parameters(N):
-    
     n = np.random.uniform(4, 7, N)
     M = 10 ** n
-    n = np.random.uniform(0, 2, N)
-    md = 10 ** n
+    dm = np.random.uniform(1, 1E2, N)
     a = np.random.uniform(0, 1, N)
-    e0 = np.random.uniform(0, 0.7, N)
+    e0 = np.random.uniform(0.1, 0.7, N)
     p0 = np.random.uniform(10, 16, N)
 
-    parameters = np.array([np.array([M[i], md[i], a[i], e0[i], p0[i]]) for i in range(N)])
+    parameters = np.array([np.array([M[i], dm[i], a[i], e0[i], p0[i]]) for i in range(N)])
 
     return parameters
 
 # Generate the strain h from the parameters par and returns it
 def gen_strain(par):
-
     M = par[:, 0]
-    mu = par[:, 1]
-    d = np.ones_like(M)
+    mu = np.ones_like(M)
+    d = par[:, 1]
     a = par[:, 2]
     e0 = par[:, 3]
     p0 = par[:, 4]
 
-    h = np.array([gen_wave(M[i], mu[i], a[i], p0[i], e0[i], x0, d[i], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt) for i in range(len(d))], dtype = object)
-    
+    h = [gen_wave(M[i], mu[i], a[i], p0[i], e0[i], x0, d[i], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt) for i in range(len(d))]
+
     return h
 
 # Generate the spectrograms of the given strains
@@ -163,15 +143,14 @@ def gen_specs(hs):
     specs = []
 
     for h in hs:
-
+        
         # Fill the strain array with zeros, so that all have the same length
         # independant of the signal duration
-        hp = np.pad(h.real, (0, 1262326 - len(h)))
-        hp = h.real
+        hp = np.pad(h.real, (0, 315582 - len(h)))
 
         ts = TimeSeries(hp, dt = dt)
 
-        data = ts.spectrogram(2E4, nproc = 14) ** (1/2.)
+        data = ts.spectrogram(2E4) ** (1/2)
 
 
         specs.append(data)
@@ -179,29 +158,51 @@ def gen_specs(hs):
     return specs
 
 # Save the spectrogram files as csv data
-def save_files(specs):
+def save_files(files, loc, n = 0):
+    for i in range(len(files)):
+        np.savetxt("/hpcwork/cg457676/data/" + loc + "_{:05}.csv".format(m_sim * nrun + i + n * 100), np.array(files[i]), delimiter = ",")
 
-    for i in range(len(specs)):
-        np.savetxt("./spectrograms/simulated_data/spectorgrams/data_{:06}.csv".format(i), np.array(specs[i]), delimiter = ",")
+# argparse
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-n", "--nrun", type = int, default = 0)
+parser.add_argument("-m", "--m_sim", type = int, default = 1)
+
+nrun = parser.parse_args().nrun
+m_sim = parser.parse_args().m_sim
+
+# generate the random seed
+np.random.seed(nrun)
 
 
-# Number of simulations
 
-N = 1
+import time
 
-data = gen_parameters(N)
-h = gen_strain(data)
-spec = gen_specs(h)
-save_files(spec)
+st = time.time()
 
-np.savetxt("./spectrograms/simulated_data/parameters.csv")
-
-# data = gen_parameters(5)
+# Generate the data
+data = gen_parameters(m_sim)
 
 # Save the parameters in a csv file
-# np.savetxt("Simulation/params.csv", np.array(data), delimiter = ",")
+np.savetxt("/hpcwork/cg457676/data/parameters/parameters_{}.csv".format(nrun), np.array(data), delimiter = ",")
+
+for i in range(max(int(m_sim / 100), 1)):
+
+    print("batch {:4}".format(i))
+
+    h = gen_strain(data[i * 100: (i + 1) * 100])
+    spec = gen_specs(h)
+
+    # Save the strain
+    save_files(h, "strains/h", i)
+
+    # Save the spectrograms
+    save_files(spec, "spectrograms/spec", i)
 
 
+et = time.time()
 
+print(et - st)
 
 
