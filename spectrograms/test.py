@@ -50,7 +50,7 @@ plt.rcParams['savefig.bbox'] = 'tight'
 plt.rcParams['savefig.pad_inches'] = 0.1
 
 #plt.rcParams['savefig.transparent'] = True
-plt.rcParams['figure.figsize'] = (8, 6)
+plt.rcParams['figure.figsize'] = (10, 6)
 
 
 use_gpu = False
@@ -136,33 +136,35 @@ Phi_r0 = 0
 
 # SEED = 3183
 
-par = np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_2.csv", delimiter=",", skip_header = 813, skip_footer = 186)
+par = np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_3.csv", delimiter=",", skip_header = 813, skip_footer = 186)
 
 print("Masse M = {:.2E} M_sun, mu / d = {:.2E} M_sun / Gpc, spin a = {:.2f}\nEccentricity e_0 = {:.2f}, Seperation p_0 = {:.1f}".format(par[0], 1 / par[1], par[2], par[3], par[4]))
 
-# h = np.genfromtxt("/hpcwork/cg457676/data/strains/h_03813.csv", delimiter = ",", dtype = np.complex_).real
+# Vergleich mit den erzeugten daten
+# h = gen_wave(par[0], 1.00, par[2], par[4], par[3], x0, par[1], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt).real
 
-# print(h)
+h = np.genfromtxt("/hpcwork/cg457676/data/strains/h_03813.csv", delimiter = ",", dtype = np.complex_).real
 
-# t = np.arange(len(h)) * 5
+t = np.arange(len(h)) * 5
 
-# fig, ax = plt.subplots()
+fig, ax = plt.subplots()
 
-# ax.plot(t[:300], h[:300], color = "#e60049", zorder = 10)
+ax.plot(t[:300], h[:300], color = "#e60049", zorder = 10)
 
-# ax.set_xlabel("Time $t$ [s]")
-# ax.set_ylabel("Strain $h_+$")
-# ax.set_title("Plot of a strain (file number 3.813)", y = 1.02)
+ax.set_xlabel("Time $t$ [s]")
+ax.set_ylabel("Strain $h_+$")
+ax.set_title("Plot of a strain (file number 3.813)", y = 1.02)
 
-# plt.savefig("./spectrograms/test_h.png")
+plt.savefig("./spectrograms/Quality_check/test_h.png")
+
+
 
 spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/spectrograms/spec_03813.csv", delimiter = ",").real, 0, 1)
 
-x = np.arange(0.5, 80, 1) * 2E4
-y = np.arange(3) * 2E-5
+# Time in days
 
-x = (np.arange(0, 79) + 0.5) * 2E4
-y = np.arange(1, 2E3 + 2) * 5E-5
+x = (np.arange(0, 79) + 0.5) * 2E4 / (3600 * 24)
+y = (np.arange(2E3 + 1) + 0.5) * 5E-5
 
 z = spectrogram
 
@@ -177,12 +179,36 @@ ax.set_yscale("log")
 
 ax.set_ylim(1E-4, 1E-1)
 
+
+ax.set_ylabel("Frequency $f$")
+ax.set_xlabel("Time $t$ in days")
+ax.set_title("Spectrogram of a gravitational wave (file number 3.813)", y = 1.02)
+ax.colorbar(label=r'Gravitational wave amplitude [1/$\sqrt{\mathrm{Hz}}$]')
+
 ax.grid(False)
 
-plt.savefig("./spectrograms/test_strain.png")
+plt.savefig("./spectrograms/Quality_check/test_spec.png")
 
 
+# hp = np.pad(h, (0, 315582 - len(h)))
 
+# ts = TimeSeries(hp, dt = dt)
 
+# data = ts.spectrogram(2E4) ** (1/2)
+
+# plot = data.imshow(norm='log', vmin = 2E-5 * np.max(np.array(data)))
+# ax = plot.gca()
+# ax.set_yscale('log')
+# ax.set_ylim(1E-4, 1E-1)
+# ax.grid(False)
+# # ax.set_xlabel("Time $t$ [day]")
+# ax.set_ylabel("Frequency $f$ [Hz]")
+# ax.colorbar(label=r'Gravitational-wave amplitude [strain/$\sqrt{\mathrm{Hz}}$]')
+    
+# ax.set_title("Spectrogram of the wave", y = 1.02)
+
+# print(data.shape)
+
+# plot.savefig("./spectrograms/vgl_spec.png")
 
 
