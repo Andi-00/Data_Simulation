@@ -162,18 +162,30 @@ def gen_specs(hs):
 # Save the spectrogram files as csv data
 def save_files(files, loc, n = 0):
     for i in range(len(files)):
-        np.savetxt("/hpcwork/cg457676/data/testfiles/" + loc + "_{:05}.csv".format(700 + i), np.array(files[i]), delimiter = ",")
+        np.savetxt("/hpcwork/cg457676/data/" + loc + "_{:05}.csv".format(700 + i), np.array(files[i]), delimiter = ",")
 
-
-import time
-
-st = time.time()
 
 # Generate the data
+# data = [np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_{:1}.csv".format(i), delimiter = ",") for i in range(10)]
+
+# The geration yields, that the spin values of number 749 and 836 are above 0.9999
+# this  results in an error, when generating the strain. Therefore the values are replaced with 0.9999
+# The difference of the values of a is 0.000064 and 0.000049 and therefore negligable compared to the real values
+
+# print(data[0][749])
+# print(data[0][836])
+
+# for j in range(len(data)):
+#     for i in range(len(data[j])):
+#         if data[j][i][2] > 0.9999: 
+#             print(i, data[j][i][2])
+#             data[j][i][2] = 0.9999
+
+# fixing the values to 0.9999 -- has been done
+
+
 data = np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_0.csv", delimiter = ",")[700:]
 
-
-print(data)
 
 h = gen_strain(data)
 spec = gen_specs(h)
@@ -183,10 +195,3 @@ save_files(h, "strains/h")
 
 # Save the spectrograms
 save_files(spec, "spectrograms/spec")
-
-
-et = time.time()
-
-print(et - st)
-
-
