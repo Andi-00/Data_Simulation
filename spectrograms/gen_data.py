@@ -1,3 +1,5 @@
+## Code to generate the 10^4 parameters, strains and spectrograms
+
 import sys
 import os
 

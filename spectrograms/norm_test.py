@@ -1,3 +1,5 @@
+# Code to plot the different parameter distriibutions
+
 import numpy as np
 from matplotlib import pyplot as plt
 
