@@ -25,6 +25,6 @@ conda activate EMRI_env
 
 date
 
-python ./gen_others.py
+python ./spectrograms/gen_others.py
 
 date
