@@ -1,5 +1,4 @@
-# Test code to test the data simulation
-
+# Test code to plot the simulated data
 import sys
 import os
 
@@ -32,6 +31,26 @@ from few.utils.constants import *
 from few.summation.aakwave import AAKSummation
 from few.waveform import Pn5AAKWaveform, AAKWaveformBase
 
+plt.rcParams['pgf.rcfonts'] = False
+plt.rcParams['font.serif'] = []
+plt.rcParams['font.family'] = 'serif'
+plt.rcParams['text.usetex'] = True
+plt.rcParams['axes.formatter.useoffset'] = False
+plt.rcParams['lines.linewidth'] = 2
+plt.rcParams['errorbar.capsize'] = 2
+plt.rcParams['grid.linewidth'] = 0.5
+plt.rcParams['axes.labelsize'] = 18
+plt.rcParams['axes.titlesize'] = 18
+plt.rcParams['xtick.labelsize'] = 14
+plt.rcParams['ytick.labelsize'] = 14
+plt.rcParams['legend.title_fontsize'] = 14
+plt.rcParams['legend.fontsize'] = 14
+plt.rcParams['savefig.dpi'] = 300
+plt.rcParams['savefig.bbox'] = 'tight'
+plt.rcParams['savefig.pad_inches'] = 0.1
+
+#plt.rcParams['savefig.transparent'] = True
+plt.rcParams['figure.figsize'] = (8, 6)
 
 
 use_gpu = False
@@ -81,6 +100,7 @@ few = FastSchwarzschildEccentricFlux(
 
 
 
+
 gen_wave = GenerateEMRIWaveform("Pn5AAKWaveform")
 
 # parameters
@@ -115,28 +135,26 @@ Phi_r0 = 0
 # The parameters include M, mu / d, a, e0 and p0
 
 
-# Generate the strain h from the parameters par and returns it
-def gen_strain(par):
-    M = par[:, 0]
-    mu = np.ones_like(M)
-    d = par[:, 1]
-    a = par[:, 2]
-    e0 = par[:, 3]
-    p0 = par[:, 4]
 
-    h = [gen_wave(M[i], mu[i], a[i], p0[i], e0[i], x0, d[i], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt) for i in range(len(d))]
+par = np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_2.csv", delimiter=",", skip_header = 813, skip_footer = 186)
 
-    return h
+print("Masse M = {:.2E} M_sun, mu / d = {:.2E} M_sun / Gpc, spin a = {:.2f}\nEccentricity e_0 = {:.2f}, Seperation p_0 = {:.1f}".format(par[0], 1 / par[1], par[2], par[3], par[4]))
 
+h = np.genfromtxt("/hpcwork/cg457676/data/strains/h_03813.csv", delimiter = ",", dtype = np.complex_).real
 
-par = np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_4.csv", delimiter=",", skip_footer=9900)
-
-data = par[9, :]
-print(data)
-
-h = gen_wave(data[0], 1, data[2], 16.0, 0.001, x0, data[1], qS, phiS, qK, phiK, Phi_phi0, Phi_theta0, Phi_r0, T=T, dt=dt)
 print(h)
 
+t = np.arange(len(h)) * 5
+
+fig, ax = plt.subplots()
+
+ax.plot(t[:300], h[:300], color = "#e60049", zorder = 10)
+
+ax.set_xlabel("Time $t$ [s]")
+ax.set_ylabel("Strain $h_+$")
+ax.set_title("Plot of a strain (file number 3.813)", y = 1.02)
+
+plt.savefig("./spectrograms/test_h.png")
 
 
 
@@ -149,47 +167,3 @@ print(h)
 
 
 
-######################################################
-
-
-# hp = np.pad(h.real, (0, 315582 - len(h)))
-# hp = h.real
-
-# data = TimeSeries(hp / max(h), dt = dt)
-
-# spec = data.spectrogram(2E4) ** (1 / 2)
-# print(np.array(spec).shape)
-
-# plt.plot(h)
-# plt.savefig("this_is_a_wave.png")
-
-# plot = spec.imshow(norm='log', vmin = 2E-5 * np.max(np.array(spec)))
-# ax = plot.gca()
-# ax.set_yscale('log')
-# ax.set_ylim(1E-4, 1E-1)
-# ax.grid(False)
-# # ax.set_xlabel("Time $t$ [day]")
-# ax.set_ylabel("Frequency $f$ [Hz]")
-# ax.colorbar(
-#     label=r'Gravitational-wave amplitude [strain/$\sqrt{\mathrm{Hz}}$]')
-    
-# ax.set_title("Spectrogram of the wave", y = 1.02)
-    
-
-# plot.savefig("new_spectrogram.png")
-
-# # print(specgram)
-
-# # qspecgram = data.q_transform(qrange=(16, 2048),frange = (1E-4, 1E-1), logf = True, fres = 100)
-
-# # plot = qspecgram.plot(figsize=[8, 4])
-# # ax = plot.gca()
-# # ax.set_xscale('seconds')
-# # ax.set_yscale('log')
-# # ax.set_ylim(1E-4, 1E-1)
-# # ax.set_ylabel('Frequency [Hz]')
-# # ax.grid(True, axis='y', which='both')
-# # ax.colorbar(cmap='viridis', label='Normalized energy')
-
-
-# # plot.savefig("q_transfrom.png")
