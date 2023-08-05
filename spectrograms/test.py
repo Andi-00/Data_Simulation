@@ -134,33 +134,52 @@ Phi_r0 = 0
 # Generate the random parameters for the EMRIs
 # The parameters include M, mu / d, a, e0 and p0
 
-
+# SEED = 3183
 
 par = np.genfromtxt("/hpcwork/cg457676/data/parameters/parameters_2.csv", delimiter=",", skip_header = 813, skip_footer = 186)
 
 print("Masse M = {:.2E} M_sun, mu / d = {:.2E} M_sun / Gpc, spin a = {:.2f}\nEccentricity e_0 = {:.2f}, Seperation p_0 = {:.1f}".format(par[0], 1 / par[1], par[2], par[3], par[4]))
 
-h = np.genfromtxt("/hpcwork/cg457676/data/strains/h_03813.csv", delimiter = ",", dtype = np.complex_).real
+# h = np.genfromtxt("/hpcwork/cg457676/data/strains/h_03813.csv", delimiter = ",", dtype = np.complex_).real
 
-print(h)
+# print(h)
 
-t = np.arange(len(h)) * 5
+# t = np.arange(len(h)) * 5
+
+# fig, ax = plt.subplots()
+
+# ax.plot(t[:300], h[:300], color = "#e60049", zorder = 10)
+
+# ax.set_xlabel("Time $t$ [s]")
+# ax.set_ylabel("Strain $h_+$")
+# ax.set_title("Plot of a strain (file number 3.813)", y = 1.02)
+
+# plt.savefig("./spectrograms/test_h.png")
+
+spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/spectrograms/spec_03853.csv", delimiter = ",").real, 0, 1)
+
+x = np.arange(0.5, 80, 1) * 2E4
+y = np.arange(3) * 2E-5
+
+x = (np.arange(0, 79) + 0.5) * 2E4
+y = np.arange(1, 2E3 + 2) * 5E-5
+
+z = spectrogram
+
+print(z.shape)
+print(len(x))
+print(len(y))
 
 fig, ax = plt.subplots()
 
-ax.plot(t[:300], h[:300], color = "#e60049", zorder = 10)
+ax.pcolormesh(x, y, z, norm = "log", vmin = 2E-5 * np.max(z))
+ax.set_yscale("log")
 
-ax.set_xlabel("Time $t$ [s]")
-ax.set_ylabel("Strain $h_+$")
-ax.set_title("Plot of a strain (file number 3.813)", y = 1.02)
+ax.set_ylim(1E-4, 1E-1)
 
-plt.savefig("./spectrograms/test_h.png")
+ax.grid(False)
 
-
-
-
-
-
+plt.savefig("./spectrograms/test_strain.png")
 
 
 
