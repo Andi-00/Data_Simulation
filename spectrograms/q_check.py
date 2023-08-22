@@ -31,26 +31,26 @@ import numpy as np
 # from few.summation.aakwave import AAKSummation
 # from few.waveform import Pn5AAKWaveform, AAKWaveformBase
 
-# plt.rcParams['pgf.rcfonts'] = False
-# plt.rcParams['font.serif'] = []
-# plt.rcParams['font.family'] = 'serif'
-# plt.rcParams['text.usetex'] = True
-# plt.rcParams['axes.formatter.useoffset'] = False
-# plt.rcParams['lines.linewidth'] = 2
-# plt.rcParams['errorbar.capsize'] = 2
-# plt.rcParams['grid.linewidth'] = 0.5
-# plt.rcParams['axes.labelsize'] = 18
-# plt.rcParams['axes.titlesize'] = 18
-# plt.rcParams['xtick.labelsize'] = 14
-# plt.rcParams['ytick.labelsize'] = 14
-# plt.rcParams['legend.title_fontsize'] = 14
-# plt.rcParams['legend.fontsize'] = 14
-# plt.rcParams['savefig.dpi'] = 300
-# plt.rcParams['savefig.bbox'] = 'tight'
-# plt.rcParams['savefig.pad_inches'] = 0.1
+plt.rcParams['pgf.rcfonts'] = False
+plt.rcParams['font.serif'] = []
+plt.rcParams['font.family'] = 'serif'
+plt.rcParams['text.usetex'] = True
+plt.rcParams['axes.formatter.useoffset'] = False
+plt.rcParams['lines.linewidth'] = 2
+plt.rcParams['errorbar.capsize'] = 2
+plt.rcParams['grid.linewidth'] = 0.5
+plt.rcParams['axes.labelsize'] = 18
+plt.rcParams['axes.titlesize'] = 18
+plt.rcParams['xtick.labelsize'] = 14
+plt.rcParams['ytick.labelsize'] = 14
+plt.rcParams['legend.title_fontsize'] = 14
+plt.rcParams['legend.fontsize'] = 14
+plt.rcParams['savefig.dpi'] = 300
+plt.rcParams['savefig.bbox'] = 'tight'
+plt.rcParams['savefig.pad_inches'] = 0.1
 
-# #plt.rcParams['savefig.transparent'] = True
-# plt.rcParams['figure.figsize'] = (10, 6)
+#plt.rcParams['savefig.transparent'] = True
+plt.rcParams['figure.figsize'] = (10, 6)
 
 
 # use_gpu = False
@@ -159,7 +159,7 @@ import numpy as np
 
 
 
-spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/Processed_Data_0/pspec0_03813.csv", delimiter = ",").real, 0, 1)
+spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/Processed_Data_0/pspec0_03817.csv", delimiter = ",").real, 0, 1)
 
 # Time in days
 
