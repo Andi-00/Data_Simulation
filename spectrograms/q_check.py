@@ -50,7 +50,7 @@ plt.rcParams['savefig.bbox'] = 'tight'
 plt.rcParams['savefig.pad_inches'] = 0.1
 
 #plt.rcParams['savefig.transparent'] = True
-plt.rcParams['figure.figsize'] = (10, 6)
+plt.rcParams['figure.figsize'] = (10, 5)
 
 
 # use_gpu = False
@@ -159,7 +159,7 @@ plt.rcParams['figure.figsize'] = (10, 6)
 
 
 
-spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/Processed_Data_0/pspec0_03817.csv", delimiter = ",").real, 0, 1)
+spectrogram = np.swapaxes(np.genfromtxt("/hpcwork/cg457676/data/Processed_Data_0/pspec0_03817.csv", delimiter = ","), 0, 1)
 
 # Time in days
 
@@ -187,7 +187,7 @@ ax.colorbar(label=r'Gravitational wave amplitude [1/$\sqrt{\mathrm{Hz}}$]')
 
 ax.grid(False)
 
-plt.savefig("./test.png")
+plt.savefig("./blabla.png")
 
 
 # hp = np.pad(h, (0, 315582 - len(h)))
